@@ -1,0 +1,76 @@
+.Login{
+    width:100vw;
+    height: 100vh;
+    background-color: rgb(253, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginWrap{
+    width:70%;
+    height:70%;
+    display: flex;
+    /* background-color: rgb(255, 127, 146); */
+}
+
+.LoginLeft, .LoginRight{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.LoginLogo{
+    font-size:50px;
+    font-weight: 800;
+    color:#1f79ee;
+    margin-bottom:10px
+}
+.LoginDesc{
+    font-size: 24px;
+}
+.LoginBox{
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.LoginInput{
+    height: 50px;
+    border-radius: 10px;
+    border:1px solid black;
+    font-size:18px;
+    padding-left:20px;
+}
+.LoginInput:focus{
+    outline: none;
+}
+.LoginButton{
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    background-color: #1f79ee;
+    color:white;
+    font-size:20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.LoginForgot{
+    text-align: center;
+    color:#1f79ee;
+}
+.LoginRegisterButton{
+    width:60%;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    align-self: center;
+    background-color: rgb(29, 244, 29);
+    color:white;
+    font-size:20px;
+    font-weight: 500;
+    cursor: pointer;
+}
